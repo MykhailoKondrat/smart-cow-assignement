@@ -23,7 +23,7 @@ function App() {
               <PrivateRoute>
                 <Routes>
                   <Route path="create/*" element={<CreateVideoContainer />}>
-                    <Route path="actors" index element={<SelectActor />} />
+                    <Route path="actor" element={<SelectActor />} />
                     <Route path="voice" element={<p>voice</p>} />
                     <Route path="alignment" element={<p>align</p>} />
                     <Route path="background" element={<p>background</p>} />
