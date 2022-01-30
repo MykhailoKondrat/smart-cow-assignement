@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  position: relative;
+  flex: 1;
+  margin-top: 18px;
+}
+
+.buttonWrapper {
+  position: absolute;
+  bottom: 13px;
+  left:30px;
+}
+.textArea{
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  resize: none;
+  padding: 20px 30px;
+}
+.wordCounter{
+  position: absolute;
+  right: 17px;
+  bottom: 13px;
+  font-size: 10px;
+  color:#999999;
+  text-align: right;
+
+}

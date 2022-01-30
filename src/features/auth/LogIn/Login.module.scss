@@ -1,0 +1,22 @@
+@import "./src/global/shared.module";
+.authHeadline{
+  padding: 44px 0 0 39px;
+  display: flex;
+}
+
+.container {
+  @include hStack;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+.signupForm{
+  @include vStack;
+  margin: 240px auto 63px auto;
+}
+.submitButton{
+  @include greenButton
+}
+.link{
+  text-align: center;
+}

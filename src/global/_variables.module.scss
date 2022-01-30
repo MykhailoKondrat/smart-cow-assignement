@@ -1,0 +1,13 @@
+:root {
+  --blue: red;
+  --divider-line:#E5E5E5;
+}
+
+@mixin vStack {
+  display: flex;
+  flex-direction: column;
+}
+@mixin hStack{
+  display: flex;
+  flex-direction: row;
+}

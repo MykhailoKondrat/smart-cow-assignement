@@ -1,0 +1,5 @@
+@import "src/global/shared.module";
+.actorTiles{
+  @include hStack;
+  flex-wrap: wrap;
+}

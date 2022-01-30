@@ -1,0 +1,19 @@
+.navButton{
+  margin: 20px 0;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  &:hover{
+    background: #EBF2FF;
+  }
+}
+.active{
+  background: #EBF2FF;
+  color:#3860AD;
+}
+.enable{
+  color:#999999;
+}

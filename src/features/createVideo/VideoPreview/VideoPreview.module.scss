@@ -1,0 +1,35 @@
+@import "./src/global/shared.module";
+.previewWrapper{
+  @include vStack;
+  justify-content: space-between;
+  background:  #F4F4F4;
+  border-radius: 20px;
+  flex: 1;
+  padding: 20px;
+  height: auto;
+  max-height: 640px;
+}
+
+.previewImageWrap{
+  position: relative;
+}
+.previewImage{
+  width: 100%;
+  border-radius:20px;
+}
+.previewBadge{
+  position: absolute;
+  bottom:26px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: auto;
+  color:#3860AD;
+  background: #EBF2FF;
+  padding: 6px 20px;
+  line-height: 23px;
+  vertical-align: center;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  height: 35px;
+}

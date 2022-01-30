@@ -1,0 +1,16 @@
+@import './global/shared.module';
+.App {
+  @include hStack;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  align-items: stretch;
+}
+.mainContainer{
+  @include vStack;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  align-items: stretch;
+
+}

@@ -1,0 +1,44 @@
+@mixin vStack {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin hStack{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+@mixin link{
+  font-size: 13px;
+  color:#3860AD;
+}
+@mixin smallButton{
+  margin: auto;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  padding: 6px 20px;
+  font-size: 14px;
+  height: 33px;
+  border-radius: 6px;
+  &:nth-of-type(2n){
+    margin-left: 20px;
+  }
+}
+
+@mixin greenButton{
+  background: #46B13D;
+  color:#ffffff;
+  &:hover{
+    background: #12B1B1;
+  }
+}
+@mixin greyButton{
+  background: #F1F1F1;
+  color:#999999;
+  &:hover{
+    background: #5A5A5A;
+  }
+}

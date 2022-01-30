@@ -1,0 +1,10 @@
+@import "./src/global/shared.module";
+.smallGreenButton{
+  @include smallButton;
+  @include greenButton;
+}
+.smallGreyButton{
+  @include smallButton;
+  @include greyButton;
+}
+

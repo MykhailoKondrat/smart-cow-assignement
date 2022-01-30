@@ -1,0 +1,18 @@
+@import "./src/global/variables.module";
+
+.mainNavWrapper{
+  @include vStack;
+  width:92px;
+  color:red;
+  justify-content: space-between;
+  align-items: center;
+  margin: 51px  0 57px 0;
+  border-right: 1px solid var(--divider-line);
+
+}
+
+.mainMenuWrapper{
+  @include vStack;
+  margin: 82px 0 auto 0;
+
+}

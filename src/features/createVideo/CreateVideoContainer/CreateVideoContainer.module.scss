@@ -1,0 +1,14 @@
+@import "src/global/shared.module";
+.contentWrap{
+  @include hStack;
+  padding: 20px 60px 0 26px;
+  height: 100%;
+}
+.tabbedContentWrap{
+  flex: 1;
+  margin-left: 40px;
+  margin-top: 28px;
+}
+.tabsWrap{
+  margin-bottom: 29px;
+}

@@ -1,0 +1,34 @@
+@import './src/global/shared.module';
+.inputLabel {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.textInput {
+  border-radius: 6px;
+  padding: 8px;
+  color: #333333;
+  font-size: 15px;
+  height: 40px;
+  border: 1px solid #999999;
+  width: 360px;
+  &:valid {
+    border: 1px solid #5c90f3;
+  }
+}
+.inputContainer {
+  @include vStack;
+  margin-bottom: 20px;
+}
+
+.labelWrap{
+  @include hStack;
+  align-items: center;
+  margin-bottom: 6px;
+  justify-content: space-between;
+}
+.passwordOnly{
+  @include link;
+  font-weight: 500;
+  text-align: right;
+}
