@@ -1,6 +1,6 @@
 const { createSlice } = require('@reduxjs/toolkit')
 const authInitState = {
-  isLoggedIn: true
+  isLoggedIn: false
 }
 const authSlice = createSlice({
   name: 'auth',
